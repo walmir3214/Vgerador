@@ -3,9 +3,6 @@ import java.util.Random;
 
 public class Personagem {
     String nome;
-    String nomeelfo;
-    String nomeanao;
-    String nomehalfling;
     String classe;
     RolarAtributos.Raca raca;
     int forca;

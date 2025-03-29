@@ -60,9 +60,6 @@ public class RolarAtributos {
 
     public static void executar(Personagem personagem) {
         personagem.nome = nome();
-        personagem.nomeelfo = nomeelfo();
-        personagem.nomeanao = nomeanao();
-        personagem.nomehalfling = nomehalfling();
         personagem.forca = rolagem();
         personagem.carisma = rolagem();
         personagem.constituicao = rolagem();
@@ -81,7 +78,7 @@ public class RolarAtributos {
 
         final String descricao;
 
-        private Raca(String descricao) {
+        Raca(String descricao) {
             this.descricao = descricao;
         }
 
