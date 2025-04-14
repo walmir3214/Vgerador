@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class RolarAtributos {
 
-    Ui ui = new Ui();
+
 
 
 
@@ -34,7 +34,7 @@ public class RolarAtributos {
         return classes.get(classe.nextInt(classes.size()));
     }
 
-    private static Raca racas() {
+    public static Raca racas() {
         return Raca.values()[(new Random()).nextInt(Raca.values().length)];
     }
 
