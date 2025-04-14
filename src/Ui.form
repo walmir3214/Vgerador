@@ -19,7 +19,7 @@
         </constraints>
         <properties>
           <font swing-font="Tree.font"/>
-          <text value="GERADOR DE FICHA GENÉRICO 0.01"/>
+          <text value="GERADOR DE FICHA GENÉRICO 0.02"/>
         </properties>
       </component>
       <component id="96349" class="javax.swing.JButton" binding="button1" default-binding="true">
